@@ -1,0 +1,148 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": ": launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 72939471,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be launch the browser",
+            "match": {
+              "location": "background.userShouldBeLaunchTheBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3734528568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "background.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Facebook username Functionality",
+        "description": "",
+        "id": "login-functinality;facebook-username-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 129903637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "background.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5082375251,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on login page",
+            "match": {
+              "location": "login.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": ": launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 43700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be launch the browser",
+            "match": {
+              "location": "background.userShouldBeLaunchTheBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2962979150,
+              "status": "passed"
+            },
+            "match": {
+              "location": "background.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate password Functionality",
+        "description": "",
+        "id": "login-functinality;validate-password-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 71412358,
+              "status": "passed"
+            },
+            "match": {
+              "location": "background.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5081739091,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on password page",
+            "match": {
+              "location": "login.Userisonpasswordpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functinality",
+    "description": "",
+    "id": "login-functinality",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook Login Functionality",
+        "description": "",
+        "id": "login-functinality;facebook-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4005728039,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328112558,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username \u0026 Password",
+            "match": {
+              "location": "Login.user_enter_username_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sonali@1723",
+                  "",
+                  "Sonali@1723"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5123949235,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be navigates to otp page",
+            "match": {
+              "location": "Login.user_should_be_navigates_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functinality",
+    "description": "",
+    "id": "login-functinality",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature/Login.feature"
+  }
+]
